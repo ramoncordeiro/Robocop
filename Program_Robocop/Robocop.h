@@ -10,15 +10,16 @@ using std::string;
 
 class Robocop {
 public:
-    Robocop(string);//construtor
-    inline void setNome();
+    Robocop();//construtor
+    inline Robocop(string nome, int id, int velocidade, bool atirar, bool parar, bool perseguicao, bool prender, bool revista, bool );
+    const inline void setNome();
     string getNome();
     int getID();
-    void setID();
+    //void setID();
     void setMover();
     bool getMover();
     bool getParar();
-    int VelocidadeMaxima(int *velocidade);
+    const int VelocidadeMaxima(int *velocidade);
     void setAtirar();
     bool getAtirar();
     bool getFazerRevista();
