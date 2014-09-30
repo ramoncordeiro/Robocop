@@ -1,19 +1,13 @@
-/* 
- * File:   main.cpp
- * Author: Asus
- *
- * Created on 26 de Setembro de 2014, 12:25
- */
+#include <stdio.h>
+#include <stdlib.h>
+#include "Robocop.h"
 
-#include <cstdlib>
 
-using namespace std;
-
-/*
- * 
- */
 int main(int argc, char** argv) {
+    
+    Robocop roboc1;
+           
+        
+    return (EXIT_SUCCESS);
 
-    return 0;
 }
-
